@@ -20,13 +20,13 @@
 
   -Install dependencies
 
-  --npm install npx playwright install
+  npm install npx playwright install
 
   --Make sure to be in the project directory before running the project
 
 -Run the project from the CMD (The CMD comands are given with chrome browser, you can change it to firefox for FireFox, webkit for Safari)
 
-  --npx playwright test -g "Data Crawling" --project=chromium --headed
+  npx playwright test -g "Data Crawling" --project=chromium --headed
 
 -Let the script do its thing, the maximum duration is 120min which will get you around 6000 listings from the website. You can change the duration by changing the timeout in the config file if you need more data extracted
 
