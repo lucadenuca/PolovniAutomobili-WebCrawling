@@ -16,7 +16,7 @@
 
 
 
-**Configuration and running the tests**
+**Configuration and running the script**
 
   -Install dependencies
 
